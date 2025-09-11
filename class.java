@@ -2,7 +2,7 @@ class Cliente {
     private String nome;
     private int idade;
     private String endereco;
-    private long cpf; // melhor usar long, pois CPF não é número para cálculos
+    private long cpf;
 
     public Cliente(String nome, int idade, String endereco, long cpf) {
         this.nome = nome;
@@ -26,4 +26,5 @@ class Cliente {
     public long getCpf() {
         return cpf;
     }
+
 }
